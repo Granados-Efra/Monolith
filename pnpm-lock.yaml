@@ -24,6 +24,9 @@ importers:
         specifier: ^5.2.1
         version: 5.2.1(supports-color@5.5.0)
     devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/express':
         specifier: ^5.0.6
         version: 5.0.6
@@ -49,6 +52,9 @@ importers:
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.9.1(supports-color@7.2.0))
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@types/node':
         specifier: ^24.13.3
         version: 24.13.3
