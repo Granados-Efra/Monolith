@@ -2,7 +2,7 @@ import express from 'express';
 import type { Application, Response, Request } from 'express';
 
 const app: Application = express();
-const port = 3000; // The port your express server will be running on.
+const port = 8000; // The port your express server will be running on.
 
 // Enable URL-encoded form data parsing
 app.use(express.urlencoded({ extended: true }));
